@@ -79,7 +79,7 @@ form textarea {
     border-radius: 5px;
 }
 
-form button[type="submit"] {
+form input[type="button"] {
     padding: 10px;
     background-color: #333;
     color: #fff;
@@ -87,7 +87,7 @@ form button[type="submit"] {
     border-radius: 5px;
 }
 
-form button[type="submit"]:hover {
+form input[type="button"]:hover {
     background-color: #575757;
 }
 
@@ -133,4 +133,8 @@ footer p {
 
 .service-box p {
     color: #666;
+}
+
+#titulo {
+    color: blue;
 }
